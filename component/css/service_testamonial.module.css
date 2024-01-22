@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+.container{
+    content: '';
+    right: 0;
+    background: linear-gradient(to right, transparent, rgba(194, 154, 76, 0.5));
+}
+
+.tagtest{
+    background: rgba(0, 0, 0, 0.5);
+    height: 380px;
+    width: 300px;
+    border-radius: 48% 48% 0 0 / 145px 145px 0 0;
+    top: 10px;
+    pointer-events: none;
+}
+
+.imagecontainer{
+    cursor: pointer;
+    
+}
+
+.testamonialarea{
+    font-family: Inter,sans-serif;
+    box-shadow: 10px 10px 20px rgba(194, 154, 76, 0.9);
+}
+
+.testamonialimage{
+    top:-30px;
+}

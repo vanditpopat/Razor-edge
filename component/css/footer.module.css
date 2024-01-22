@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+.bgColor{
+    background-color: #CCAD7E;
+    font-style: Inter,sans-serif;
+}
+
+.button{
+    right:2.4rem;
+    min-width: fit-content;
+}
+
+.inputarea{
+    background-color:  rgba(0, 0, 0, 0.1);
+    position: relative;
+    left: 3rem;
+    min-width: 360px;
+}
+
+.inputarea::placeholder{
+    color: #fff;
+}
+
+.icons{
+    color: white;
+    font-size: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 50%; 
+}
+
+.icons:hover {
+    transform: translateY(-5px); /* Moves the icon up */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Creates the "lifted" look */
+  }
+
+  @media only screen and (max-width: 360px) {
+    .inputarea{
+        min-width: 260px;
+    }
+
+    .button{
+        right:1.4rem;
+    }
+}
